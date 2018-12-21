@@ -20,9 +20,9 @@ python slicer1.py --input_dir=/Users/joohyunpark/Desktop/test --file_name=test -
 Details: <br>
 ```
 --input_dir  INPUT_DIR             Directory that contains input file. Must be a wav file.
---file_name  FILE_NAME             File name of input file.
---target_length  TARGET_LENGTH     Desired duration of output file.
---starting_point  STARTING_POINT   Starting point to slice input file.
+--file_name  FILE_NAME             Name of input file.
+--target_length  TARGET_LENGTH     Desired duration of output.
+--starting_point  STARTING_POINT   Starting point to slice input.
 ```
 
 
