@@ -9,4 +9,9 @@ pip install pydub
 ```
 
 ## Usage
+### slicer1
 
+Example: <br>
+```
+python slicer1.py --input_dir=/Users/joohyunpark/Desktop/test --file_name=test --target_length=10 --starting_point=0
+```
