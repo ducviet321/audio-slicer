@@ -14,7 +14,7 @@ Slicer1 can be used for extracting specific section of the input file. You can s
 
 Example: <br>
 ```
-python slicer1.py --input_dir=/Users/joohyunpark/Desktop/test --file_name=test --target_length=10 --starting_point=0
+python slicer1.py --input_dir=/Users/joohyunpark/Desktop/input --file_name=test --target_length=10 --starting_point=0
 ```
 
 Details: <br>
@@ -26,5 +26,17 @@ Details: <br>
 ```
 
 ### slicer2
-Will be updated soon.
+Slicer2 can be used for slicing the whole input file into bunch of chunks. For this code you must specify the output directory. Default target_length is 30 seconds which means chopping the file into 30-second chunks.
 
+Example: <br>
+```
+python slicer2.py --input_dir=/Users/joohyunpark/Desktop/input --file_name=test --output_dir=/Users/joohyunpark/Desktop/result --target_length=30
+```
+
+Details: <br>
+```
+--input_dir  INPUT_DIR             Directory that contains input file. Must be a wav file.
+--file_name  FILE_NAME             Name of input file.
+--output_dir  OUTPUT_DIR           Directory for results.
+--target_length  TARGET_LENGTH     Desired duration of output.
+```
