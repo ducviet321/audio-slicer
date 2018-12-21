@@ -25,4 +25,6 @@ Details: <br>
 --starting_point  STARTING_POINT   Starting point to slice input.
 ```
 
+### slicer2
+Will be updated soon.
 
