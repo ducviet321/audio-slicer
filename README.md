@@ -10,7 +10,7 @@ pip install pydub
 
 ## Usage
 ### slicer1
-Slicer1 can be used for extracting specific section of the input file. You can set the starting point(seconds) and target duration. For example, --starting_point=0 --target_length=10 means cut audio file from 0 to 10 seconds and create a 10-second file. These are the default parameters. 
+Slicer1 can be used for extracting specific section of the input file. You can set the starting point(seconds) and target duration. For example, --starting_point=2 --target_length=10 means cut audio file from 2 to 12 seconds and create a 10-second file. Default settings for these two parameters are same as example below. 
 
 Example: <br>
 ```
