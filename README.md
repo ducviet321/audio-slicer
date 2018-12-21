@@ -1,5 +1,5 @@
 # audio-slicer
-This repo is made for manipulating audio file. Use slicer1.py for setting a specific section and slicing into one file. Use slicer2.py for slicing the whole file into chunks. 
+This repo is made for manipulating audio file. Use slicer1.py for setting a specific section and slicing into one file. Use slicer2.py for slicing the whole file into chunks. The output will be saved in the same directory that contains input file.
 **The code only works for wav files.** 
 
 ## Dependency 
